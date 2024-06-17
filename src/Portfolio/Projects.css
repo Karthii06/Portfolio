@@ -1,0 +1,87 @@
+*{
+  overflow-x:hidden;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+#project{
+    /* margin-top: 170px; */
+    height:  100vh;
+    width: 100%;
+    background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* position: relative; */
+}
+#projecttitle{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 545;
+}
+
+#projectcard{
+    position: relative;
+}
+#project1,#project2,#project3{
+    height: 350px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    overflow-y: hidden;
+ 
+}
+
+#project1{
+    margin-left: -800px;
+    position: absolute;
+}
+ #project2{
+    position: absolute;
+    /* margin-left: 100px; */
+    margin-left: 800px;
+
+ }
+
+ #img1,#img2,#img3{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ #lessthan,#greaterthan{
+    position: absolute;
+    height: 70px;
+    width: 40px;
+    border: none;
+    background: #00c3ff;
+    border-radius: 10px;
+ }
+ #symbol{
+    height: 50px;
+    width: 30px;
+    background: none;
+ }
+#lessthan{
+    margin-left: -810px;
+    margin-top: 100px;
+}
+
+#greaterthan{
+    /* margin-right: -1100px; */
+    margin-left: 730px;
+    margin-top: 100px;
+}
+
+#img3.success{
+    animation: move;
+}
+#projectdesc{
+    height: 50px;
+    width: 600px;
+    text-align: center;
+    font-size: large;
+}
+
+ 

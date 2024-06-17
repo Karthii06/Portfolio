@@ -1,0 +1,82 @@
+#edu{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     background-color:  #028ead;
+     /* gap: 100px; */
+     font-style: italic;
+     font-family:'Times New Roman', Times, serif;
+     color: white;
+
+}
+
+
+
+#educard{
+    margin-left: 190px;
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+line-height: 23px;
+font-weight: 550;
+/* border: 1px solid white; */
+font-size: larger;
+}
+
+#edutitle{
+    font-weight: 550;
+    font-size: 45px;
+}
+#line{
+    height: 300px;
+    width: 1px;
+    background-color: white;
+    margin-right: 265px;
+    position: absolute;
+     margin-right: 350px;
+}
+#circle{
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    border-radius: 10px;
+margin-top:-295px;
+margin-right: 350px;
+
+background-color: white
+}
+#college{
+    margin-left: 35px;
+    /* margin-top: 35px; */
+  
+}
+#circle2{
+    height: 7px;
+    width: 7px;
+    position: absolute;
+    border-radius: 10px;
+margin-top: -70px;
+margin-right: 350px;
+background-color:  white
+
+}
+
+    #circle3{
+        height: 7px;
+        width: 7px;
+        position: absolute;
+        border-radius: 10px;
+margin-right: 350px;
+    
+    background-color:  white    ;
+    margin-top: 159px;
+    }
